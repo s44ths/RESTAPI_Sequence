@@ -1,3 +1,5 @@
+Файл 10m:
+
 curl -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"file_path\": \"D:/10m.txt\"}" http://localhost:8080/maxvalue
 {"max_value":49999978}
 
@@ -19,7 +21,7 @@ curl -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"fi
 curl -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"file_path\": \"D:/10m.txt\"}" http://localhost:8080/decr_sequence
 {"longest_decreasing_subsequences":[[47689379,42381213,30043880,12102356,-4774057,-5157723,-11217378,-23005285,-23016933,-39209115,-49148762]]}
 
-
+Последовательность из примера в тз:
 
 curl -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"file_path\": \"D:/test.txt\"}" http://localhost:8080/decr_sequence
 {"longest_decreasing_subsequences":[[2,1],[7,1]]}
